@@ -1,0 +1,21 @@
+# Godot 4 .gitignore
+.godot/
+*.translation
+*.import
+
+# Pasta local dos executáveis do Godot (não subir para o repositório)
+Iniciar Jogo/
+*.exe
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Exportações e builds locais
+*.apk
+*.aab
+*.zip
+*.html
+*.wasm
+builds/
